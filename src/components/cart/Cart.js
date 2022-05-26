@@ -7,11 +7,10 @@ class Cart extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            selected: false,
+            selected: this.props.data.selected,
             hover: false
         };
     }
-
 
     onSelected = () => {
         let selected = this.state.selected;
@@ -45,7 +44,7 @@ class Cart extends Component {
         const defaultSupheader = this.defaultSupheader();
         const selectedHoverSupheader = this.selectedHoverSupheader();
 
-        const supheader = (hover && selected) ? selectedHoverSupheader : defaultSupheader;
+        const supheader = (hover && selected && !disabled) ? selectedHoverSupheader : defaultSupheader;
         const offer = disabled ? disabledOffer : (selected ? selectedOffer : defaultOffer);
 
 

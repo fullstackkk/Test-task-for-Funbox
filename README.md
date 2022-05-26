@@ -1,6 +1,6 @@
 # Тестовое задание для компании Funbox
 
-#### _Demo_ https://fullstackkk.github.io/Test-task-for-Funbox/
+#### _Demo_[https://fullstackkk.github.io/Test-task-for-Funbox/]
 
 ## Что было сделано
 
@@ -35,7 +35,7 @@ $ gh repo clone fullstackkk/Test-task-for-Funbox
 $ npm i
 ```
 
-Чтобы запустить решение , выполните в терминале
+Чтобы запустить решение , выполните в терминале.
 
 ```sh
 $ npm start
